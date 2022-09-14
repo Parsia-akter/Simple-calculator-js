@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-6xl font-bold text-center text-purple-700">Simple Calculator</h1>
+    <section class=" flex justify-center">
+        <div class="">
+            <div class="w-96 p-16 bg-purple-300 font-bold text-3xl mt-20 text-white rounded-lg">
+                <p id="result"></p>
+            </div>
+            <div id="container-btn" class="grid grid-cols-4 gap-4 bg-purple-100 text-white p-4">
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">7</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">8</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">9</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500" id="add">+</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">4</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">5</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">6</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500" id="sub">-</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">1</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">2</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">3</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500" id="mul">*</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">0</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500">.</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500" id="div">/</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500" id="equ">=</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500" id="back">B</div>
+                <div class="btn rounded-full p-6 bg-purple-400 font-bold text-2xl text-center hover:bg-purple-500" id="cancel">C</div>   
+                
+            </div>
+        </div>
+
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>
